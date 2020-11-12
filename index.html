@@ -14,7 +14,10 @@
 
 </head>
 <body>
-<header><h1>Zach's Pizza Company</h1></header>
+<header>
+    <h1>Zach's Pizza Company</h1>
+    <h3>Waukesha, WI</h3>
+</header>
 <div class="container">
     <div id="tabsNav">
         <nav>
@@ -34,11 +37,12 @@
 
         <div class="tab-content">
             <div id="pizza" class="tab-pane active">
+                <h2>* Denotes required Field</h2>
                     <form id="toDelivery">
                         <fieldset id="size">
-                            <legend>Choose your pizza Size:</legend>
+                            <legend>Choose your pizza Size*:</legend>
                                 <label for="sizeSmall">Small $7.00</label>
-                                <input type="radio" name="size" id="sizeSmall" data-price="7.00" value="Small $7.00"><br>
+                                <input type="radio" name="size" id="sizeSmall" data-price="7.00" value="Small $7.00" required><br>
                                 <label for="sizeMedium">Medium $9.00</label>
                                 <input type="radio" name="size" id="sizeMedium" data-price="9.00" value="Medium $9.00"><br>
                                 <label for="sizeLarge">Large $12.00</label>
@@ -46,9 +50,9 @@
                         </fieldset>
                         <br>
                         <fieldset id="crust">
-                            <legend>Choose your crust type:</legend>
+                            <legend>Choose your crust type*:</legend>
                                 <label for="crustThin">Thin Crust</label>
-                                <input type="radio" name="crust" id="crustThin" value="Thin Crust - No charge"><br>
+                                <input type="radio" name="crust" id="crustThin" value="Thin Crust - No charge" required><br>
                                 <label for="crustPan">Pan Crust</label>
                                 <input type="radio" name="crust" id="crustPan" value="Pan Crust - No Charge"><br>
                                 <label for="crustGlutenFree">Gluten Free Crust</label>
@@ -84,20 +88,21 @@
 
             <div id="delivery" class="tab-pane">
                     <form id="toConfirmation">
+                        <h2>* Denotes Required Field</h2>
                         <fieldset id="deliveryFs">
                             <legend>Please enter your delivery information:</legend>
                                 <label for="name">First and Last name</label>
-                                <input type="text" name="delivery" id="name"><br><br>
-                                <label for="address">Address</label>
-                                <input type="text" name="delivery" id="address"><br><br>
-                                <label for="city">City</label>
-                                <input type="text" name="delivery" id="city"><br><br>
-                                <label for="state">State</label>
-                                <input type="text" name="delivery" id="state" value="WI"><br><br>
-                                <label for="zipCode">Zip Code</label>
-                                <input type="text" name="delivery" id="zipCode"><br><br>
-                                <label for="phone">Phone Number</label>
-                                <input type="text" name="delivery" id="phone">
+                                <input type="text" name="delivery" id="name" ><br><br>
+                                <label for="address">Address*</label>
+                                <input type="text" name="delivery" id="address" required><br><br>
+                                <label for="city">City*</label>
+                                <input type="text" name="delivery" id="city" required><br><br>
+                                <label for="state">State*</label>
+                                <input type="text" name="delivery" id="state" value="WI" required><br><br>
+                                <label for="zipCode">Zip Code*</label>
+                                <input type="text" name="delivery" id="zipCode" required><br><br>
+                                <label for="phone">Phone Number*</label>
+                                <input type="text" name="delivery" id="phone" required>
                         </fieldset>
                         <input type="submit" value="To Order Confirmation">
                     </form>
