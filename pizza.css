@@ -1,0 +1,85 @@
+form
+{
+    font-weight: bold;
+}
+
+nav ul li
+{
+    font-size: 150%;
+}
+
+nav ul li a
+{
+    color: darkred;
+}
+
+body
+{
+    background-image: url(Pizza.jpg);
+    font-family: Oswald, sans-serif;
+}
+
+.container
+{
+    background: rgba(76, 175, 80, 0.6)
+}
+
+#crustBorder
+{
+    border-style: solid;
+    border-color: darkred;
+    border-width: 5px;
+}
+
+fieldset
+{
+    border-style: solid;
+    border-color: darkred;
+    border-width: 5px;
+    width: 25%
+}
+
+legend
+{
+    width: auto;
+}
+
+h2
+{
+    font-style: italic;
+    color: black;
+}
+
+header
+{
+    text-align: center;
+    font-family: Algerian, sans-serif;
+    background-color: darkred;
+    color: rgba(76, 175, 80, 0.8);
+}
+
+footer
+{
+    text-align: center;
+    font-style: italic;
+    background-color: darkred;
+    color: rgba(76, 175, 80, 0.8);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#tabsNav
+{
+    font-style: italic;
+}
+
+#deliveryFs
+{
+    width: 50%
+}
+
+p
+{
+    font-weight: bold;
+}
