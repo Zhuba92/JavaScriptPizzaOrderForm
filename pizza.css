@@ -6,6 +6,7 @@ form
 nav ul li
 {
     font-size: 150%;
+    font-weight: bold;
 }
 
 nav ul li a
@@ -16,12 +17,15 @@ nav ul li a
 body
 {
     background-image: url(Pizza.jpg);
-    font-family: Oswald, sans-serif;
+    font-family: Oswald, Arial Narrow, sans-serif;
 }
 
 .container
 {
-    background: rgba(76, 175, 80, 0.6)
+    background: rgba(76, 175, 80, 0.6);
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkred;
 }
 
 #crustBorder
@@ -36,18 +40,22 @@ fieldset
     border-style: solid;
     border-color: darkred;
     border-width: 5px;
-    width: 25%
+    width: 25%;
+    background-color: rgba(76, 175, 80, 0.8);
 }
 
 legend
 {
     width: auto;
+    color: black;
 }
 
 h2
 {
     font-style: italic;
     color: black;
+    font-weight: bold;
+    padding-left: 5px;
 }
 
 header
@@ -56,6 +64,7 @@ header
     font-family: Algerian, sans-serif;
     background-color: darkred;
     color: rgba(76, 175, 80, 0.8);
+    height: 45px
 }
 
 footer
@@ -80,7 +89,44 @@ footer
     width: 50%
 }
 
+#toDelivery
+{
+    text-align: center;
+}
+
 p
 {
     font-weight: bold;
 }
+
+label
+{
+    font-size: large;
+    color: black;
+}
+
+h1
+{
+    margin-bottom: 0;
+}
+
+#orderConfirmation p
+{
+    color: black;
+    font-size: large;
+    padding-left: 5px;
+}
+
+#orderConfirmation
+{
+    background-color: rgba(76, 175, 80, 0.8);
+    width: 40%;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 5px;
+    padding-bottom: 10px;
+}
+
+
+
+

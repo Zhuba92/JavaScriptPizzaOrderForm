@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a5a44edf-f8df-40bf-8e6d-054bc4c07355" name="Default Changelist" comment="Made a few changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -56,6 +74,12 @@
       <workItem from="1605104099123" duration="10815000" />
       <workItem from="1605215387207" duration="175000" />
       <workItem from="1605218117807" duration="3021000" />
+      <workItem from="1605221258346" duration="334000" />
+      <workItem from="1605222692146" duration="398000" />
+      <workItem from="1605284251814" duration="40000" />
+      <workItem from="1605284496174" duration="309000" />
+      <workItem from="1605287838033" duration="820000" />
+      <workItem from="1605385925271" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="Made a few changes">
       <created>1605220870172</created>
@@ -64,22 +88,41 @@
       <option name="project" value="LOCAL" />
       <updated>1605220870172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made a few changes">
+      <created>1605221354906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605221354906</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made a few changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Made a few changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1605215561568">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605284256839">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605215561568" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605109102735" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605284256839" />
     <state x="797" y="418" width="473" height="312" key="Github.ShareDialog" timestamp="1605219329688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -92,9 +135,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605054090330" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605220876555">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605221362481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605220876555" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605221362481" />
   </component>
 </project>
